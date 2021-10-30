@@ -18,7 +18,7 @@ export default class CoffeeList extends LightningElement {
             cultivar: 'Heirloom Types',
             farmGate: true,
             coffeeImg:
-                'resources/attlecreek-coffee-roasters-Yx1XkPYUBss-unsplash.jpg',
+                'resources/battlecreek-coffee-roasters-Yx1XkPYUBss-unsplash.jpg',
             coffeeDescription: 'Fruits are well-integrated into the coffee\'s sweetness, and acidity is bright for dry process. Date sugar, orange marmalade, mango, and aromatic cedar. Intense chocolate and a blueberry hint in dark roasts.'
         },
         {
