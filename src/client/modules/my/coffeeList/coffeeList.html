@@ -1,0 +1,18 @@
+<template>
+    <div class="list">
+        <input type="search" placeholder="Search for coffee beans..." oninput={handleSearchInput}>
+      <template for:each={coffees} for:item="coffee">
+        <a key={coffee.id} class="coffee" data-index={index} onclick={handleCoffeeClick}>
+            <div>
+              <p class="title">Name: <b>{coffee.name}</b></p>
+              <p>Process Method: <b>{coffee.process}</b></p>
+              <p>Cultivar: <b>{coffee.cultivar}</b></p>
+            </div>
+            <div class="coffee-pictures">
+                <img key={coffee.id} src={coffee.coffeeImg}
+                  alt={coffee.name} title={coffee.name}>
+            </div>
+          </a>
+      </template>
+    </div>
+  </template>
